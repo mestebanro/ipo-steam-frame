@@ -1,0 +1,214 @@
+/* Hoja de estilos única: Valve Steam Frame */
+
+html {
+  scroll-padding-top: 80px; /* para que el menú fijo no tape los títulos */
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  color: #222222;
+  background-color: #f4f4f4;
+}
+
+/* ---------- Cabecera y menú ---------- */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  background-color: #171a21;
+}
+
+.logo {
+  margin: 0;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.logo span {
+  color: #66c0f4;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav a {
+  color: #c7d5e0;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #66c0f4;
+}
+
+a:focus-visible {
+  outline: 3px solid #66c0f4;
+}
+
+/* ---------- Contenido ---------- */
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+section {
+  margin: 40px 0;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  color: #171a21;
+}
+
+h2 {
+  margin-top: 0;
+  padding-bottom: 8px;
+  border-bottom: 3px solid #66c0f4;
+  color: #171a21;
+}
+
+h3 {
+  margin-top: 0;
+  color: #1b2838;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.fuente {
+  margin-top: 5px;
+  font-size: 0.8rem;
+  color: #777777;
+}
+
+a {
+  color: #1a73c9;
+}
+
+/* ---------- Portada ---------- */
+.portada {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
+  color: #ffffff;
+  background-color: #1b2838;
+}
+
+.portada h1 {
+  color: #ffffff;
+}
+
+.portada h3 {
+  margin-bottom: 5px;
+  color: #66c0f4;
+}
+
+.portada a {
+  color: #66c0f4;
+}
+
+.portada-texto,
+.portada-foto {
+  flex: 1 1 300px;
+}
+
+.subtitulo {
+  margin-top: 0;
+  font-size: 1.2rem;
+  color: #66c0f4;
+}
+
+.portada-foto img {
+  background-color: #ffffff;
+}
+
+.portada .fuente {
+  color: #c7d5e0;
+}
+
+/* ---------- Tarjetas de beneficios ---------- */
+.tarjetas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.tarjeta {
+  flex: 1 1 180px;
+  padding: 15px;
+  border-top: 4px solid #66c0f4;
+  border-radius: 8px;
+  background-color: #eef3f7;
+}
+
+.tarjeta p {
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+/* ---------- Evolución ---------- */
+.historia li {
+  margin-bottom: 8px;
+}
+
+.foto-centrada {
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+caption {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #dddddd;
+}
+
+thead th {
+  color: #ffffff;
+  background-color: #1b2838;
+}
+
+tbody tr:hover {
+  background-color: #eef3f7;
+}
+
+/* ---------- Pie ---------- */
+footer {
+  padding: 20px;
+  text-align: center;
+  color: #c7d5e0;
+  background-color: #171a21;
+}
